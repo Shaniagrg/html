@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>
+                Complex Form
+        </h2>
+
+        <form>
+
+            <fieldset>
+                <legend>
+                        Personal Information
+                </legend>
+                <br/>
+                <label for="name">
+                        Name:
+                </label>
+                
+                <input type="text" name="name" id="name">
+                
+                <br/>
+                <br/>
+
+                <label for="emailID">
+                        Email:
+                </label>
+
+                <input type="text" name="emailID" id="emailID">
+                
+                <br/>
+                <br/>
+
+                <label for="phonenumber">
+                        Phone:
+                </label>
+                
+                <input type="tel" name="phonenumber" id="phonenumber">
+
+                <br/>
+                <br/>
+
+                <label for="DOB">
+                        Date of Birth
+                </label>
+                
+                <input type="date" name="DOB" id="DOB">
+
+                <br/>
+                <br/>
+
+                <span>
+                        Gender:
+                    <!--use span for same line or p inline-->
+                </span>
+
+                <label for="gender1">
+                        Male
+                </label>
+                
+                <input type="radio" name="gender" id="gender1">
+
+                <label for="gender2">
+                        Female
+                </label>
+            
+                <input type="radio" name="gender" id="gender2">
+                
+                <br/>
+                <br/>
+
+                <label for="country1">
+                        Country
+                </label>
+                <select name="country" id="country1">
+                   <option value="USA">
+                            United States
+                   </option>
+                   <option value="Aus">
+                            Australia
+                    </option>
+                    <option value="Jap">
+                            Japan
+                    </option>
+                    <option value="Eth">
+                            Ethopia
+                    </option>     
+                </select>
+            </fieldset>
+
+            <br/>
+            <br/>
+
+            <fieldset>
+
+                <legend>
+                        Adddress
+                </legend>
+
+                <br/> 
+
+                <label for="addst1">
+                        Street
+                </label>
+                <input type="text" name="addst" id="addst1">
+
+                <br/>
+                <br/>
+
+                <label for="city1">
+                        City
+                </label>
+                <input type="text" name="city" id="city1">
+
+                <br/>
+                <br/>
+
+                <label for="state1">
+                        State 
+                </label>
+                <input type="text" name="state" id="state1">
+
+                <br/>
+                <br/>
+
+                <label for="zipc1">
+                        ZipCode
+                </label>
+                <input type="text" name="zipc" id="zipc1">
+                
+            </fieldset>
+            
+            <fieldset>
+
+                <legend>
+                        Other Information
+                </legend>
+
+                <label for="textarea1">
+                        Comments
+                </label>
+
+                <textarea name="comment" id="textarea1" cols="30" rows="10">
+
+                </textarea>
+
+                <label for="checkbox1">
+                        I agree to the terms of service
+                </label>
+                <input type="checkbox" name="checkbox1" id="checkbox1">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
